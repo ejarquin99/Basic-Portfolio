@@ -1,7 +1,3 @@
-body {
-    
-}
-
 .myNameBackground {
     background-color: #360b22;
     width: 100%;
@@ -22,25 +18,138 @@ body {
 
 .navBar {
     float: right;
+    background-color: #662d33;
+    color: rgb(206, 184, 130);
     position: absolute;
-    right: 50px;
-    top: 12px;
+    right: 150px;
+    top: 15px;
     z-index: 30;
-    
+}
+
+#about:hover {
+    background-color: lightblue;
+  color: white;
+}
+
+#contact2:hover {
+    background-color: lightblue;
+  color: white;
+}
+
+#portfolio1:hover {
+    background-color: lightblue;
+  color: white;
 }
 
 #aboutMeHeader {
     clear: both;
     color: rgb(206, 184, 130);
-    border-bottom: 3px solid #360b22;
+    border-bottom: 3px solid #662d33;
 }
 
 .content {
-    background-color: #662d33;
+    background-color: #360b22;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: rgb(206, 184, 130);
     border: rgb(206, 184, 130) solid 10px;
     padding: 10px 60px 20px 60px;
     margin: 60px 150px 50px 150px;
 }
 
+.contactHeader {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+    margin-left: 155px;
+    color: rgb(206, 184, 130);
+    border: #360b22 solid 10px;
+    background-color: #360b22;
+    position: relative;
+    left: 14px;
+}
 
+input {
+    width: 97%;
+    margin-top: 2px;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 97.5%;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+#contact {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    border-bottom: 3px solid rgb(206, 184, 130);
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 0px;
+    top: -10px;
+}
+
+#submit {
+    width: 10%;
+    background-color: rgb(206, 184, 130);
+    border-radius: 4px;
+}
+
+#submit:hover {
+    background-color:lightblue;
+  color: white;
+
+}
+.portfolioHeader {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    margin-right: 155px;
+    margin-bottom: 100px;
+    margin-left: 155px;
+    color: rgb(206, 184, 130);
+    border: #360b22 solid 10px;
+    background-color: #360b22;
+    position: relative;
+    left: 14px;
+}
+
+#portfolio {
+    border-bottom: 3px solid rgb(206, 184, 130);
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 0px;
+    top: -10px;
+}
+
+#SafeHike {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#SafeRoads {
+    margin-right: 20px
+}
+
+#NewsMap {
+    margin-left: 8px;
+}
+
+#HappyHour {
+    margin-top: 27px;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+#WineCatalog {
+    margin-top: 27px;
+    margin-left: 1px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
